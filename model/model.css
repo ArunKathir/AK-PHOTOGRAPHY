@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    max-width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding: 0 3%;
+    overflow: hidden;
+}
+.left-container{
+    background-color: rgb(245, 242, 246);
+    width: 25%;
+    justify-content: center;
+    display: inline;
+}
+.right-container{
+    width: 75%;
+    display: inline-table;
+    justify-content: center;
+    background-color: brown;
+    height: 2000px;
+
+}
+.list-cont li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 15px;
+}
+.list-cont{
+    margin-left: 5px 5px;
+}
+.img-details1{
+    margin-top: 30px;
+}
+.li1cont-1{
+    background-color: rgb(42, 110, 165);
+}
+.listcont-2{
+    background-color: yellow;
+}
+.listcont-3{
+    background-color: blueviolet;
+}
+.listcont-4{
+    background-color: green;
+}
+.listcont-5{
+    background-color: red;
+}
+
+.li1,.li2,.li3,.li4,.li5{
+    border-bottom: solid white;
+    overflow: hidden;
+    margin-left: 5px;
+    background-color: rgb(245, 242, 246);
+    color: rgb(2, 2, 2);
+}
+/* .li1{
+    color: blue;
+} */
+.welcomehead-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.para-wc-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+.para-wc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+.about-uscont{
+    /* margin-left: 30px; */
+    margin-top:40px;
+    padding: 20px;
+    border-top: solid rgb(235, 199, 22);
+}
+.about-us-details{
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 20px;
+    border-top: solid rgb(235, 199, 22) ;
+}
+
